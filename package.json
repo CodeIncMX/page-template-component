@@ -1,6 +1,6 @@
 {
   "name": "@codeinc.mx/page-template-component",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A great page template component for web development",
   "main": "js/PageTemplate.js",
   "scripts": {
