@@ -1,0 +1,15 @@
+include head.pug
+include injection.pug
+
+-config = {};
+
+block pageConfig
+block templateConfig
+
+doctype html
+html(lang= config.lang || "es_MX")
+  +head(config)
+  body
+    block body
+    +injectExtra(config.extraCssUrls, 'css')
+    +injectExtra(config.extraJsUrls, 'js')

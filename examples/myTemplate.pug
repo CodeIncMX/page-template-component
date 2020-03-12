@@ -1,0 +1,13 @@
+extends ../pug/template.pug
+
+block templateConfig
+  -config.favicon= 'assets/favicon.png';
+  -config.extraCssUrls= ['https://fonts.googleapis.com/css?family=Raleway:300,500,800&display=swap'];
+  //- -config.extraJsUrls= ['someextrascript.js'];
+  //-  -config.lang = "en_US"; // overwrite default values
+
+block body
+  block header
+  block hero
+  block features
+  block footer

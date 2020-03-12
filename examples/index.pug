@@ -1,0 +1,14 @@
+extends myTemplate.pug
+
+block pageConfig
+  -config.title = 'título de la página desde index.pug';
+  -config.description = 'Descripción de la página';
+
+block header
+  nav this is the header
+block hero
+  .hero
+block features
+  .features this is the features section
+block footer
+  footer this is the footer

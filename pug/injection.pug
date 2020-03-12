@@ -1,0 +1,7 @@
+mixin injectExtra(urls, type= 'css')
+  if urls
+    each url in urls
+      if type === 'css'
+        link(href= url rel='stylesheet')
+      else if type === 'js'
+        script(src= url type='text/javascript')
