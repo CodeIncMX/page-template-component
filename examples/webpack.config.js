@@ -48,7 +48,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'examples/index.pug'
+      template: 'examples/index.pug',
+      favicon: 'examples/images/favicon.png'
     }),
     new ImageminPlugin({
       pngquant: {
