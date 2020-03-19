@@ -1,6 +1,6 @@
 {
   "name": "@codeinc.mx/page-template-component",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A great page template component for web development",
   "main": "js/PageTemplate.js",
   "scripts": {
@@ -10,9 +10,9 @@
   "author": "Sandro E. Martínez",
   "license": "ISC",
   "dependencies": {
-    "@codeinc.mx/animations": "0.2.0",
+    "@codeinc.mx/animations": "0.2.1",
     "@codeinc.mx/background-manager": "0.2.0",
-    "@codeinc.mx/grid-system": "0.1.0",
+    "@codeinc.mx/grid-system": "0.2.0",
     "@codeinc.mx/responsive-system": "0.1.0"
   },
   "devDependencies": {
