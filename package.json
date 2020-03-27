@@ -13,7 +13,7 @@
     "@codeinc.mx/animations": "0.2.1",
     "@codeinc.mx/background-manager": "0.2.0",
     "@codeinc.mx/grid-system": "0.2.0",
-    "@codeinc.mx/motion-effects": "0.1.0",
+    "@codeinc.mx/motion-effects": "0.1.1",
     "@codeinc.mx/responsive-system": "0.2.0"
   },
   "devDependencies": {
