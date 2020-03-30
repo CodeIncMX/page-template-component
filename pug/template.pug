@@ -1,5 +1,5 @@
 include head.pug
-include injection.pug
+//- include injection.pug
 
 -config = {};
 
@@ -11,5 +11,5 @@ html(lang= config.lang || "es_MX")
   +head(config)
   body
     block body
-    +injectExtra(config.extraCssUrls, 'css')
-    +injectExtra(config.extraJsUrls, 'js')
+    //- +injectExtra(config.extraCssUrls, 'css')
+    //- +injectExtra(config.extraJsUrls, 'js')
